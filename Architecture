@@ -1,0 +1,6 @@
+The architecture of the Production Monitoring System mobile application follows a client-server model where industrial machines generate production data that is 
+processed by a backend server and stored in a database. The Flutter mobile application  communicates with the backend through RESTful APIs to fetch and display 
+real-time production counts, graphs, machine status, alarms, reports, and notifications in a user-friendly interface. The flow of the application begins with user 
+login authentication, after which the app periodically fetches live machine data and displays it on the dashboard. The system continuously monitors production 
+thresholds and triggers local notifications when predefined conditions are met, while also allowing users to access reports, alarms, and work order modules 
+before securely logging out of the application.
